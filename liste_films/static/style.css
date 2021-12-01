@@ -2,6 +2,10 @@ body
 {
 	background-color: black;
 	color : white;
+	background-image: url("20180815_110738.jpg");
+	background-repeat: no-repeat ; /*pas de répition de l'image*/
+	background-attachment: fixed ;
+}
 }
 p
 {
