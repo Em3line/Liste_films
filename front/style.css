@@ -1,0 +1,45 @@
+body
+{
+	background-color: black;
+	color : white;
+}
+p
+{
+	font-size : 16px;
+	font-family: Times, sans-serif;
+	text-align: justify;
+}
+h1
+{
+	color : FireBrick;
+	font-size : 40px;
+	font-family : Impact, "Arial Black", Verdana, sans-serif;
+	text-align: center;
+}
+h2
+{
+	font-size : 25px;
+	font-family : "Arial Black", Verdana, sans-serif;
+	font-weight: bold;
+	text-indent: 40px;
+	color : FireBrick;
+}
+h3
+{
+	font-size : 18px;
+	font-family: Verdana, sans-serif;
+}
+
+ul
+{
+	font-size: 16px;
+	font-family : Times,sans-serif;
+}
+
+
+.code
+{
+	color : RoyalBlue;
+	font-size: 14px;
+	font-family: Verdana,sans-serif;
+}
