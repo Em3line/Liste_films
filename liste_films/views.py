@@ -12,7 +12,7 @@ def index():
 
 
 @app.route('/request/')
-def request(titre, annee):
+def request():
     return render_template('request.html', categorie_film = "Films")
 
 
