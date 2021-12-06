@@ -1,9 +1,16 @@
 {% extends 'base.html' %}
 
 {% block index %}
+
+<form name="form1">
+  <input type="text" name="input" value="Nouveau Film"><br>
+  <input type="button" name="bouton" value="Ajouter un Film" onClick="formAddFilm()">
+</form>
+
+
   <h1>Films/Saga</h1>
-  <script src="liste_films.js"></script>
-  
+
+
 
   <h1>Films</h1>
 
@@ -12,5 +19,5 @@
   <h1>Animés japonais</h1>
 
 
-  
+
 {% endblock %}
