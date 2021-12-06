@@ -20,7 +20,7 @@ function getFilms(){
   }
 }
 
-addFilm("Dragon");
-addFilm("Mulan");
-addFilm("The Words");
-getFilms();
+function formAddFilm(){
+  let test = document.form1.input.value;
+  alert("Vous avez tapé : " + test);
+}
